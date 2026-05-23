@@ -7,24 +7,22 @@ type Workflow = {
 
 const workflows: Workflow[] = [
   {
-    title: "Workflow One",
+    title: "Newsletter Ingestor",
     description:
-      "A short description of what this workflow does, the problem it solves, and the tools it uses.",
-    tags: ["Automation", "n8n"],
-    link: "#",
+      "Built for Langar Holdings' investment team. Ingests dozens of financial newsletters from email, runs LLM summarization, and surfaces live market updates and relevant topics — replacing a manual daily reading workflow and saving 30+ minutes of operational time per day.",
+    tags: ["n8n", "LLM", "Email"],
   },
   {
-    title: "Workflow Two",
+    title: "AI-Native CRM Pipeline",
     description:
-      "A short description of what this workflow does, the problem it solves, and the tools it uses.",
-    tags: ["AI", "Claude"],
-    link: "#",
+      "End-to-end pipeline connecting Granola meeting transcriptions to a CRM. An LLM extracts key insights, flags action items, suggests follow-ups, and pre-populates tailored email drafts in Outlook — complete with delivery tracking. Designed for a fast-moving deal flow environment.",
+    tags: ["n8n", "Granola", "CRM", "Outlook"],
   },
   {
-    title: "Workflow Three",
+    title: "Polymarket Data Pipeline",
     description:
-      "A short description of what this workflow does, the problem it solves, and the tools it uses.",
-    tags: ["Data", "Sheets"],
+      "Scraped live granular time-series trade data from Polymarket running on an AWS t3.small instance. Built for quantitative analysis of prediction market dynamics; produced a 35-page research paper.",
+    tags: ["Python", "AWS", "Data"],
   },
 ];
 

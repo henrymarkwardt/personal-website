@@ -3,7 +3,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Henry Markwardt",
-  description: "Personal website of Henry Markwardt",
+  description: "Henry Markwardt — AI workflows, automation, and economics research.",
 };
 
 export default function RootLayout({
